@@ -1,0 +1,20 @@
+// 1rem = 16px
+// default settings
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+  @media(max-width:750px){
+    font-size: 40%;
+  }
+}
+body {
+  position: relative;
+  box-sizing: border-box;
+  background-color: #000;
+}
